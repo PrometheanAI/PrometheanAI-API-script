@@ -3,7 +3,6 @@ Write custom scripts to keep Promethean library synced to your automated workflo
 integrate Promethean functionality directly inside of your tools with just a few lines of code
 
 1.  SEARCH ASSETS IN LIBRARY FUNCTION
-======================================================================================================================
 <br>Description:
 <br>This function allows searching within the Promethean Libraries, enabling users to locate specific assets efficiently.
 
