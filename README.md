@@ -19,5 +19,5 @@ NOTE: Before executing this function, ensure the Promethean Browser or Command L
 The function's execution retrieves assets matching the specified search_term and asset_type.
 
 Example:
-from promethean_ai_api import search_assets_in_library, AssetTypes
-result = search_assets_in_library('leather couch', AssetTypes.SOURCE_FILE)
+<br>from promethean_ai_api import search_assets_in_library, AssetTypes
+<br>result = search_assets_in_library('leather couch', AssetTypes.SOURCE_FILE)
