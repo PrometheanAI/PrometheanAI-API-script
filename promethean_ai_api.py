@@ -123,17 +123,17 @@ if __name__ == '__main__':
     import os
     source_folder = r'C:\Test_folder'
 
-    # Example SEARCH ASSETS IN LIBRARY: Search for assets by color 'red' in inspiration mode
-    search_assets_in_library(search_term='red', asset_type=AssetTypes.SOURCE_FILE)
+    # # Example SEARCH ASSETS IN LIBRARY: Search for assets by color 'red' in inspiration mode
+    # search_assets_in_library(search_term='red', asset_type=AssetTypes.SOURCE_FILE)
 
 
-    # Example ADD FILES TO LIBRARY: 1: Add list of files to the library
+    # # Example ADD FILES TO LIBRARY: 1: Add list of files to the library
     # file_paths = [os.path.join(source_folder, file_name) for file_name in os.listdir(source_folder)]
     # add_files_to_library(file_paths, asset_type=AssetTypes.INSPIRATION)
 
 
-    # Example ADD FILES TO LIBRARY: 2: Add files with custom thumbnails to the library. Let's assume that we have archive with files and
-    # corresponding thumbnails in the same folder.
+    # # Example ADD FILES TO LIBRARY: 2: Add files with custom thumbnails to the library. Let's assume that we have archive with files and
+    # # corresponding thumbnails in the same folder.
     # files_dict = {}
     # archives_names = [file for file in os.listdir(source_folder) if file.endswith('.zip')]
     # for archive_name in archives_names:
